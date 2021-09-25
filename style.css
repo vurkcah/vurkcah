@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background: #f3f3f2;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/* Container 
+================*/
+.container {
+    width: 100%;
+    max-width: 1950px;
+    margin: 0 auto;
+}
+
+/* Header 
+================*/
+.header{ 
+    width: 100%;
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px ;
+    background: #f3f3f2; /* Для устаревших браузеров */
+    background: linear-gradient(to top, #f3f3f2, #f3f3f2);
+    padding: 50px;
+  
+}
+/* Nav 
+================*/
+.nav{
+    display: flex;
+   font-size: 20px;
+    font-weight: 700;
+}
+.nav__link{
+    color: black;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+    margin-left: 50px;
+}
+
+.nav__link:hover{
+    opacity: 1; 
+}
+
+/* midle 
+================*/
+.midle__inner{
+background: #ffffff; /* Для устаревших браузеров */
+background: linear-gradient(to top, #ffffff, #ffffff);
+padding: 60px;
+}
+.cont {
+    width: 100%;
+    max-width: 1660px;
+    margin: 250px;
+}
+
+
+.navig{
+font-size: 30px;
+
+
+}
+
+.navig__link{
+    color: black;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+   
+}
+.navig__link:hover{
+    opacity: 1; 
+}
+
+/* down 
+================*/
+
+.conter{
+     position: absolute; /* Абсолютное позиционирование */
+    bottom: 20px; /* Положение от нижнего края */
+    right: 20px; /* Положение от правого края */
+    line-height: px;
+    border: 3px solid #666; /* Параметры рамки */
+    
+}
+
+

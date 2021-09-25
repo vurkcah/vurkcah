@@ -12,7 +12,7 @@ HTML, CSS, JavaScript, TypeScript
 
 Демо
 
-Демо сервиса доступно по адресу: https://github.com/vurkcah/vurkcah
+Демо сервиса доступно по адресу: https://github.com/vurkcah/vurkcah.git
 
 Среда запуска:
 1. Равертывание сервиса производится запуском файла index.html
